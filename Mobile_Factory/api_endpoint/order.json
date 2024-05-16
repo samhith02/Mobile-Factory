@@ -1,0 +1,46 @@
+[
+    {
+        "order_id": 1,
+        "total": 142.3,
+        "parts": [
+            "LED Screen",
+            "Wide-Angle Camera",
+            "USB-C Port",
+            "Android OS",
+            "Metallic Body"
+        ]
+    },
+    {
+        "order_id": 2,
+        "total": 144.99,
+        "parts": [
+            "LED Screen",
+            "Wide-Angle Camera",
+            "USB-C Port",
+            "iOS OS",
+            "Metallic Body"
+        ]
+    },
+    {
+        "order_id": 3,
+        "total": 142.3,
+        "parts": [
+            "LED Screen",
+            "Wide-Angle Camera",
+            "USB-C Port",
+            "Android OS",
+            "Metallic Body"
+        ]
+    },
+    {
+        "order_id": 4,
+        "total": 142.3,
+        "parts": [
+            "LED Screen",
+            "Wide-Angle Camera",
+            "USB-C Port",
+            "Android OS",
+            "Metallic Body"
+        ]
+    }
+]
