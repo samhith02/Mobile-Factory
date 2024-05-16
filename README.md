@@ -54,6 +54,7 @@ The processedObject function creates an order object with the total price and li
 based on the provided components.
 
 5.Handling HTTP POST Request:
+
 ○ The httpPostRequest function:
 Reads existing data from api_endpoint/order.json.
 
@@ -66,18 +67,24 @@ Reads existing data from api_endpoint/order.json.
 6.Main Input Handling:
 The script simulates handling an HTTP POST command by parsing the input and invoking
 httpPostRequest with the extracted components.
+
 The script will:
 
 ● Validate that the components are from the specified categories.
+
 ● Calculate the total cost.
+
 ● Create an order object.
+
 ● Append the order to the existing data in api_endpoint/order.json.
+
 ● Increment the ORDER_ID.
 
 Detailed Steps
 
 CSV Data Conversion:
 The csv_to_map function reads initial_data.csv and creates a dictionary (processed_data).
+
 Component Validation:
 The noDupes function ensures each component in the order is from the correct category defined
 in types.
